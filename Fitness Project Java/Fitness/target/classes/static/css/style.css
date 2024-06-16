@@ -1,0 +1,275 @@
+/*AUTORA:ANTONELLA ALARES*/
+/*HEADER */
+
+.header-1 {
+  background-image: url(../images/img-header.jpg);
+  background-size: cover;
+  background-position-y: 75%;
+  width: 100%;
+  height: 600px;
+}
+
+.header-unete {
+  background-image: url(../images/img-unete-header.jpg);
+  background-size: cover;
+  background-position-y: 30%;
+  width: 100%;
+  height: 650px;
+}
+
+.header-rutinas {
+  background-image: url(../images/img-rutinas-header.jpg);
+  background-size: cover;
+  background-position-y: 40%;
+  width: 100%;
+  height: 650px;
+}
+
+.header-diseña-rutina {
+  background-image: url(../images/img-diseña-rutina-header.jpg);
+  background-size: cover;
+  background-position-y: 40%;
+  width: 100%;
+  height: 650px;
+}
+
+.header-entrenamientos {
+  background-image: url(../images/img-entrenamientos-header.jpg);
+  background-size: cover;
+  background-position-y: 46%;
+  width: 100%;
+  height: 670px;
+}
+
+.header-nutricion {
+  background-image: url(../images/img-nutricion-header.jpg);
+  background-size: cover;
+  background-position-y: 46%;
+  width: 100%;
+  height: 670px;
+}
+
+.navbar {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  /* font-family: "Rakkas", serif;
+  font-weight: 400; */
+  letter-spacing: 4px;
+}
+
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  padding: 3px 15px;
+}
+
+.navbar-brand:hover {
+  border: 2px solid white;
+}
+
+/*ASIDES */
+
+.border-aside {
+  border-right: 2px solid black;
+}
+
+.border-aside-reversed {
+  border-left: 2px solid black;
+}
+
+.aside-content {
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+
+.aside-content a {
+  color: white;
+}
+
+h1 {
+  font-family: "Exo 2", sans-serif;
+}
+
+/*MAIN BODY */
+
+.alert {
+  width: 100%;
+  height: auto;
+}
+
+#container-alert {
+  display: flex;
+  padding: 200px 100px;
+  align-items: center;
+  height: 300px;
+}
+
+.card {
+  font-family: "Exo 2", sans-serif;
+}
+
+p,
+form {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+}
+
+#section-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#section-form div {
+  flex-grow: 1;
+}
+
+#intro-section-one,
+#rutina-title {
+  font-family: "ABeeZee", sans-serif;
+}
+
+/*FOOTER */
+
+footer {
+  font-family: "Exo 2", sans-serif;
+  max-width: 100%;
+  height: auto;
+  color: white;
+  margin-top:200px;
+}
+
+footer .btn-icon {
+  border-radius: 50%;
+}
+
+/* Perfil Card - sección feedback-register.html */
+
+.gradient-custom-2 {
+  
+  background: #fbc2eb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(255, 205, 57, 1),
+    rgba(255, 205, 57, 0.5),
+    rgba(255, 205, 57, 0.5)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(255, 205, 57, 1),
+    rgba(255, 205, 57, 0.5),
+    rgba(255, 205, 57, 0.5)
+  );
+  
+  #btn-edit:hover {
+    color: white !important; /* Cambia el color del texto a blanco al hacer hover */
+  }
+}
+
+/*Style Sección Calcular Contenido Nutricional*/
+
+/* Estilos para los campos de entrada y botones */
+#objetivo-nutricion,
+#ingreso-cantidad #opciones-select,
+#agregar-alimento,
+#calcular-nutricion,
+#calcular-comparacion, #guardar-food-planning {
+  width: calc(100% - 12px);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #ffcd6e;
+}
+
+#objetivo-nutricion,
+#opciones-select,
+#ingreso-cantidad {
+  background-color: white;
+}
+
+/* Estilos para los botones */
+#agregar-alimento,
+#calcular-nutricion,
+#calcular-comparacion, #guardar-food-planning {
+  background-color: #ffcd6e;
+
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/*Cambio color botones para aumentar contraste-mayor accesibilidad para personas con discapacidades visuales*/
+section #agregar-alimento,
+#calcular-nutricion,
+#calcular-comparacion, #guardar-food-planning {
+  border-radius: 10px;
+  background-color: #e3dbb1;
+  color: black;
+  font-weight: bold;
+}
+
+#agregar-alimento:hover {
+  background-color: #FECE5C;
+}
+
+#calcular-nutricion:hover {
+  background-color: #FECE5C;
+}
+
+#calcular-comparacion:hover {
+  background-color: #FECE5C;
+}
+
+#guardar-food-planning:hover {
+  background-color: #FECE5C;
+}
+
+
+
+
+/* Estilos para la tabla de resultados */
+#table-nutricion {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-nutricion,
+.fila-nutricion,
+.fila-calculo-nutricion,
+.dato-columna {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+#fila-nutricion,
+#columna-nutricion {
+  background-color: #ffcd6e;
+  color: white;
+  text-align: left;
+}
+
+/* Estilos para mensajes de error */
+.error {
+  color: red;
+  font-style: italic;
+}
+
+/* Animación de keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+

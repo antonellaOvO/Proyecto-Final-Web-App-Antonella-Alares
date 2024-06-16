@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Antonella Alares" />
+    <title>Diseña tu rutina Fitness</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Link Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lexend+Tera:wght@100..900&family=Lobster&family=Rajdhani:wght@300;400;500;600;700&family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lexend+Tera:wght@100..900&family=Lobster&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lexend+Tera:wght@100..900&family=Lobster&family=Rajdhani:wght@300;400;500;600;700&family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lexend+Tera:wght@100..900&family=Lobster&family=Rajdhani:wght@300;400;500;600;700&family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/5e9142b9e1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid header-entrenamientos">
+        <div class="row">
+          <div class="col-12"></div>
+        </div>
+      </div>
+      <nav
+        class="navbar fixed-top navbar-expand-lg bg-black"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand fs-1 ms-5"
+            href="../index.html
+          "
+            >Fitness</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li class="nav-item ps-5 pe-5">
+                <a class="nav-link" href="unete.html" id="errorLink">Únete</a>
+              </li>
+              <li class="nav-item ps-5 pe-5">
+                <a class="nav-link" aria-current="page" href="rutinas.html"
+                  >Rutinas</a
+                >
+              </li>
+              <li class="nav-item ps-5 pe-5">
+                <a class="nav-link" href="diseña-rutina.html"
+                  >MiRutina</a
+                >
+              </li>
+              <li class="nav-item ps-5 pe-5">
+                <a class="nav-link active" href="control-seguimiento.html"
+                  >Entrenamientos</a
+                >
+              </li>
+              <li class="nav-item ps-5 pe-5">
+                <a class="nav-link" href="../html/calcular-nutricion.html"
+                  >Nutrición</a
+                >
+              </li>
+              <li class="nav-item ps-5 pe-5">
+                <a class="nav-link" href="../html/peticion-telefono.html"
+                  ><i class="fa-regular fa-user"></i></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-2 border-aside">
+            <nav class="nav nav-underline my-5 mx-3 p-3 aside-content rounded">
+              <div class="card bg-body-secondary" style="width: 18rem">
+                <img
+                  src="../images/empezar-rutina-3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">¿Por dónde empezar?</h5>
+                  <p class="card-text">
+                    Pasos básicos y variables más importantes a controlar para
+                    crear tu propia rutina para entrenar de manera eficaz y
+                    segura.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">EJERCICIOS</li>
+                  <li class="list-group-item">OBJETIVOS</li>
+                  <li class="list-group-item">RESULTADOS</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    href="diseña-rutina.html"
+                    class="card-link fw-bold link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                    >Empieza tu rutina</a
+                  >
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-8">
+            <h1 class="mx-5 mt-5 mb-1 text-center">
+              REGISTRA TU SESIÓN DE ENTRENAMIENTO
+            </h1>
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <h4 class="fw-bold text-center text-warning">
+                  Escucha música mientras das lo mejor de ti!!!
+                </h4>
+                <div class="video-container text-center">
+                  <video id="myVideo" width="320" height="240">
+                    <source
+                      src="../videos/THE GYM BEATS Vol.4 (Nonstop-Megamix), BEST WORKOUT MUSIC,FITNESS,MOTIVATION,SPORTS,AEROBIC,CARDIO.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  <div class="container-video-btn">
+                    <button
+                      class="btn btn-dark"
+                      onclick="playVid()"
+                      type="button"
+                    >
+                      Play Video
+                    </button>
+                    <button
+                      class="btn btn-dark"
+                      onclick="pauseVid()"
+                      type="button"
+                    >
+                      Pause Video</button
+                    ><br />
+                  </div>
+                </div>
+                <form class="form mx-5 my-5" id="formTwo">
+                  <div class="mb-3">
+                    <legend class="mb-1">Controla tus progresos! 📝</legend>
+                    <legend class=" mt-4 mb-1">Para poder guardar tu Sesión de Entrenamiento debes introducir el teléfono 📲 con el que te registraste como usuario.</legend>
+                    <legend class="mb-5">Puedes registrar hasta 3 ejercicios 😉</legend>
+                    <div class="my-5" id="section-form">
+                        <div>
+                        <label for="telefono-control-form" class="form-label"
+                          >Telefono:</label
+                        >
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="telefono-control-form"
+                          placeholder=""
+                          required
+                        />
+                        <div class="fs-6 fw-bold text-danger" id="error-telefono"></div>
+                      </div>
+                    </div>
+                    <div class="my-5" id="section-form">
+
+                      <div>
+                        <label for="ejercicioOne" class="form-label"
+                          >Ejercicio 1:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="ejercicioOne"
+                          placeholder="Nombre ejercicio..."
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <label for="repeticionOne" class="form-label"
+                          >Repeticion Series:</label
+                        >
+                        <input
+                          type="number"
+                          min="1"
+                          max="20"
+                          class="form-control"
+                          id="repeticionOne"
+                          placeholder="3"
+                          required
+                        />
+                      </div>
+                        <div>
+                        <label for="duracionOne" class="form-label"
+                          >Duración:</label
+                        >
+                        <input type="text" class="form-control" id="duracionOne" name="duracionOne" readonly>
+                        <button type="button" class="btn btn-warning mt-3" onclick="startTimer('duracionOne')">Play</button>
+                        <button type="button" class="btn btn-warning mt-3" onclick="stopTimer('duracionOne')">Pause</button><br><br>
+                      </div>
+                    </div>
+
+                    <div class="my-5" id="section-form">
+                      <div>
+                        <label for="ejercicioTwo" class="form-label"
+                          >Ejercicio 2:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="ejercicioTwo"
+                          placeholder="Nombre de tu ejercicio..."
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <label for="repeticionTwo" class="form-label"
+                          >Repeticion Series:</label
+                        >
+                        <input
+                          type="number"
+                          min="1"
+                          max="20"
+                          class="form-control"
+                          id="repeticionTwo"
+                          placeholder="3"
+                          required
+                        />
+                      </div>
+                        <div>
+                        <label for="duracionTwo" class="form-label"
+                          >Duración:</label
+                        >
+                        <input type="text" class="form-control"  id="duracionTwo" name="duracionTwo" readonly>
+                        <button type="button" class="btn btn-warning mt-3" onclick="startTimer('duracionTwo')">Play</button>
+                        <button type="button" class="btn btn-warning mt-3" onclick="stopTimer('duracionTwo')">Pause</button><br><br>
+                      </div>
+                    </div>
+
+                    <div class="my-5" id="section-form">
+                      <div>
+                        <label for="ejercicioThree" class="form-label"
+                          >Ejercicio 3:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="ejercicioThree"
+                          placeholder="Nombre de tu ejercicio..."
+                          required
+                        />
+                      </div>
+
+                      <div>
+                        <label for="repeticionThree" class="form-label"
+                          >Repeticion Series:</label
+                        >
+                        <input
+                          type="number"
+                          min="1"
+                          max="20"
+                          class="form-control"
+                          id="repeticionThree"
+                          placeholder="3"
+                          required
+                        />
+                      </div>
+                        <div>
+                        <label for="duracionThree" class="form-label"
+                          >Duración:</label
+                        >
+                        <input type="text" class="form-control" id="duracionThree" name="duracionThree" readonly>
+                        <button type="button" class="btn btn-warning mt-3" onclick="startTimer('duracionThree')">Play</button>
+                        <button type="button" class="btn btn-warning mt-3" onclick="stopTimer('duracionThree')">Pause</button><br><br>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="my-5" />
+                  <h3 class="my-5" id="resultSolution">
+                    Ánimo que tú puedes!!😉
+                  </h3>
+                  <div class="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >I agree to these
+                      <a href="#">Terms & Conditions</a></label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary mt-3">Registrar Sesión</button>
+                  <!-- <button type="submit" class="btn btn-primary mt-3">
+                    Descubre tus progresos
+                  </button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 border-aside-reversed">
+            <nav class="nav nav-underline my-5 mx-3 p-3 aside-content rounded">
+              <div class="card bg-body-secondary" style="width: 18rem">
+                <img
+                  src="../images/img-calculador.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">¿Quieres comer mejor?</h5>
+                  <p class="card-text">
+                    Usa un calculador de contenido nutricional para controlar tus comidas, ajustar porciones, y asegurar una dieta equilibrada y saludable.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">CANTIDADES</li>
+                  <li class="list-group-item">CALORÍAS</li>
+                  <li class="list-group-item">CONSEJOS</li>
+                </ul>
+                <div class="card-body">
+                  <a
+                    href="calcular-nutricion.html"
+                    class="card-link fw-bold link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                    >Comienza ahora</a
+                  >
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-black" data-bs-theme="dark">
+      <div class="row mt-5 p-5">
+        <div class="col-12 text-center">
+          <!-- Facebook -->
+          <a
+            class="btn btn-icon btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-icon btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-icon btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-icon btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-icon btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-icon btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-4 text-end p-2">
+          <strong>Suscríbete a nuestra newsletter</strong>
+        </div>
+        <div class="col-6">
+          <form>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="emailaccount@account.com"
+            />
+            <div id="emailHelp" class="form-text">
+              Nunca compartiremos tu correo electrónico con nadie más.
+            </div>
+          </form>
+        </div>
+        <div class="col-2 text-start">
+          <button type="submit" class="btn btn-outline-light mb-4">
+            Suscríbete
+          </button>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-12">
+          <p class="lh-lg">
+            Transforma tu vida con salud y bienestar. Únete a nuestra comunidad
+            y accede a rutinas personalizadas, consejos nutricionales y
+            herramientas de seguimiento para alcanzar tus metas. <br />Síguenos
+            en nuestras redes sociales para estar al día con las últimas
+            novedades y motivación.
+          </p>
+        </div>
+      </div>
+
+      <div class="row text-center mt-2">
+        <div class="col-4">
+          <h5 class="text-uppercase mb-4">SOBRE NOSOTROS</h5>
+
+          <ul class="list-unstyled mb-5">
+            <li class="mb-2">
+              <a href="../index.html" class="text-white">Filosofía</a>
+            </li>
+            <li class="mb-2">
+              <a href="../index.html" class="text-white">Objetivos</a>
+            </li>
+            <li class="mb-2">
+              <a href="diseña-rutina.html" class="text-white"
+                >Búsquedas populares</a
+              >
+            </li>
+            <li class="mb-2">
+              <a href="../index.html" class="text-white">Únete a nuestro equipo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h5 class="text-uppercase mb-4">RECURSOS</h5>
+
+          <ul class="list-unstyled mb-5">
+            <li class="mb-2">
+              <a
+                href="https://www.entrenamientos.com/ejercicios"
+                class="text-white"
+                target="_blank"
+                >Ejercicios</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                href="https://www.youtube.com/watch?v=ld8nm6rcOm0"
+                class="text-white"
+                target="_blank"
+                >Playlists</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                href="https://www.gymcompany.es/blog/"
+                class="text-white"
+                target="_blank"
+                >Blog</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                href="https://blog.institutoisaf.es/los-beneficios-del-fitness-la-salud"
+                class="text-white"
+                target="_blank"
+                >Artículos de ayuda</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h5 class="text-uppercase mb-4">SOPORTE</h5>
+
+          <ul class="list-unstyled mb-5">
+            <li class="mb-2">
+              <a href="#!" class="text-white">Contacto</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white">FAQ</a>
+            </li>
+            <li class="mb-2">
+              <a
+                href="https://www.iubenda.com/es/generador-de-terminos-y-condiciones?utm_source=adwords&utm_medium=ppc&utm_campaign=aw_general_spain&utm_term=terminos%20y%20condiciones&utm_content=595532263335&gad_source=1&gclid=Cj0KCQjw9vqyBhCKARIsAIIcLMGTMtX2TsLTFb9BIR0S1pkjhGm1c8cw5pKluFo2jyJgFMREX9EPCzMaAvL8EALw_wcB"
+                class="text-white"
+                target="_blank"
+                >Términos y condiciones</a
+              >
+            </li>
+            <li class="mb-2">
+              <a
+                href="https://www.iubenda.com/es/generador-de-politicas-de-privacidad-y-cookies?utm_source=adwords&utm_medium=ppc&utm_campaign=aw_general_spain&utm_term=politica%20de%20privacidad&utm_content=595530629250&gad_source=1&gclid=Cj0KCQjw9vqyBhCKARIsAIIcLMEx6zD87Qnm5WQlDw55Q2bQ5uLohT-SKD4GLEPR5KdxO6KrlY6hogQaAnlkEALw_wcB"
+                class="text-white"
+                target="_blank"
+                >Política de Privacidad</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div><p>© Copyright 2024. Todos los derechos reservados.</p></div>
+      </div>
+    </footer>
+    <script src="../js/inputFormControl.js"></script>
+    <!-- Link Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
